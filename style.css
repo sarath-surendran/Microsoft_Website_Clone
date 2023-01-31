@@ -1,0 +1,386 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* Header starts */
+header{
+    display: flex;
+    
+    height: 55px;
+    
+}
+.menu{
+    margin-left: 15px;
+    margin-top: 17px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: #262626;
+    
+    font-size: 13px;
+    padding: 16px 8px 10px;
+}
+.menu a:hover{
+    border-bottom: 3px solid black;
+}
+.logo{
+    padding-left: 80px;
+    margin-top: 14px;
+    margin-right: 8px;
+    height: auto;
+}
+.logo img{
+    width: 110px;
+}
+.nav{
+    padding-left: 410px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: #262626;
+    
+    font-size: 13px;
+    padding: 16px 8px 10px;
+}
+.header_icon{
+    position: relative;
+    top: 14px;
+}
+/* Header End */
+
+/* Main_Section Start */
+/* Banner Section */
+.banner_container{
+    background-image: url(./Images/main.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 456px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 125px;
+}
+
+    
+.banner_container .text_container h2{
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 38px;
+   
+}
+.banner_container .text_container p{
+    margin: 20px 0px;
+    font-weight: 400;
+}
+.banner_container .text_container button{
+    padding: 10px 15px;
+    margin-right: 20px;
+    background-color: #0067b8;
+    color: #fff!important;
+    font-weight: 550;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+.banner_container .text_container button:hover{
+    background-color: #236293;
+}
+.banner_container .text_container a{
+    text-decoration: none;
+    
+    color: black;
+    font-weight: 600;
+}
+.banner_container .text_container a:hover{
+    border-bottom: 3px solid black;
+}
+/* Banner Section Ends */
+
+
+/* icon Section Start */
+.icon_container{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    
+}
+.icon_container a{
+    color: #0067b8;
+    font-weight: 500;
+}
+#microsoft365{
+    text-align: center;
+}
+#surfacedevice{
+    text-align: center;
+     margin-left: 50px;
+}
+#xbox{
+    text-align: center;
+    margin-left: 50px;
+}
+#windows11{
+    text-align: center;
+    margin-left: 50px;
+}
+
+/* icon Section End */
+
+/* products Section Starts */
+.products_container{
+    width: 100%;
+    display: flex;
+   
+    margin-top: 80px;
+    margin-left: -22px;
+    justify-content: center;
+}
+.microproducts{
+    width: 300px;
+    
+    margin-left: 30px;
+}
+.microproducts:hover{
+    cursor: pointer;
+}
+.products_container .microproducts img{
+    width: 100%;
+}
+.products_container h2{
+    font-family: inherit;
+    font-weight: 630;
+    font-size: 28px;
+}
+.products_container p{
+    line-height: 1.5;
+}
+.products_container a{
+    text-decoration: none;
+    color: #0067b8;
+    font-weight: 500;
+}
+.products_container a:hover{
+    border-bottom: 2px solid #0067b8;
+}
+/* Product section End */
+
+/* Xbox section Start */
+.xbox_container{
+    background-image: url(./Images/x\ box\ series\ s.jpeg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 107px;
+    margin-right: 100px;
+    
+}
+.xbox_main_container{
+   padding-left: 75px;
+   padding-top: 100px;
+   padding-right: 75px;
+}
+
+.xbox_text_container h2{
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.xbox_text_container p{
+    padding: 10px 0px;
+}
+.xbox_text_container button{
+    background-color: #0067b8;
+    color: #fff!important;
+    font-weight: 550;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+.xbox_text_container button:hover{
+    background-color: #236293;
+}
+/* Xbox section Ends */
+
+/* Business Section Starts */
+.business_container{
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+.business_container h2{
+   margin-left: 30px;
+   font-family: inherit;
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.business_card{
+    display: flex;
+   
+}
+.business_card .card{
+    width: 310px;
+    margin-left: 30px;
+}
+.business_card:hover{
+    cursor: pointer;
+}
+.business_card img{
+    width: 100%;
+}
+.business_card h2{
+    margin-left: 0;
+    margin-top: 40px;
+    font-family: inherit;
+    font-weight: 648;
+    font-size: 28px;
+}
+.business_card p{
+    line-height: 1.5;
+}
+.business_card a{
+    text-decoration: none;
+    color: #0067b8;
+    font-weight: 500;
+}
+.business_card a:hover{
+    border-bottom: 2px solid #0067b8;
+}
+/* Business Section Ends */
+
+/* Social Section Start */
+.social_container{
+    display: flex;
+    padding-left: 75px;
+    padding-top: 60px;
+}
+.social_container .text{
+    margin-top: 17px;
+}
+.social_container .social{
+    padding: 12px;
+    
+}
+/* Social Container End */
+
+/* Main Section End */
+
+
+
+/* Footer Section Starts */
+/* Link container Starts */
+footer{
+    margin-top: 100px;
+    font-size: 15px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    background-color: rgb(242,242,242);
+}
+
+.link_main_container{
+    width: 100%;
+    display: flex;
+    
+    padding-left: 50px;
+    padding-right: 150px;
+}
+
+.link_main_container a{
+    font-size: 11px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #616161;
+}
+.link_main_container a:hover{
+    color: #000;
+    border-bottom: 1px solid black;
+    
+}
+.link_main_container .links{
+    list-style: none;
+    margin-top: 0;
+}
+.link_left_container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    
+}
+.link_right_container{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    margin-left: 0;
+}
+.link_container{
+    margin-right: 45px;
+    margin-top: 15px;
+}
+.link_heading h4{
+    margin-left: 40px;
+    margin-bottom: 0;
+    font-weight: 450;
+}
+/* Link container Ends */
+/* End container Start */
+
+.end_container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.end_container .language{
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+}
+.end_container .language .text{
+    margin-bottom: 5px;
+    color: #989696;
+    font-weight: 100;
+}
+.end_container .language .text:hover{
+   text-decoration: underline;
+}
+
+.end_container .final_details{
+    display: flex;
+   
+}
+.final_link{
+    margin-right: 28px;
+    margin-top: 18px;
+    
+
+}
+.final_link a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 11px;
+}
+.final_link:hover{
+    text-decoration: underline;
+}
+.final_text p{
+    font-size: 11px;
+    margin-top: 22px;
+    margin-right: 70px;
+}
